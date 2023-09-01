@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="6.0.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BackendLib.Base64\BackendLib.Base64.csproj" />
+    <ProjectReference Include="..\BackendLib.Caching\BackendLib.Caching.csproj" />
+    <ProjectReference Include="..\BackendLib.Cookies\BackendLib.Cookies.csproj" />
+    <ProjectReference Include="..\BackendLib.Encryption\BackendLib.Encryption.csproj" />
+    <ProjectReference Include="..\BackendLib.Hashing\BackendLib.Hashing.csproj" />
+    <ProjectReference Include="..\BackendLib.Http\BackendLib.Http.csproj" />
+    <ProjectReference Include="..\BackendLib.Json\BackendLib.Json.csproj" />
+    <ProjectReference Include="..\BackendLib.Time\BackendLib.Time.csproj" />
+    <ProjectReference Include="..\BackendLib.Tokens\BackendLib.Tokens.csproj" />
+    <ProjectReference Include="..\BackendLib\BackendLib.csproj" />
+  </ItemGroup>
+
+</Project>

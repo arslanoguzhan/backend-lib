@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BackendLib.Base64\BackendLib.Base64.csproj" />
+    <ProjectReference Include="..\BackendLib.Encryption\BackendLib.Encryption.csproj" />
+    <ProjectReference Include="..\BackendLib.Hashing\BackendLib.Hashing.csproj" />
+    <ProjectReference Include="..\BackendLib.Json\BackendLib.Json.csproj" />
+    <ProjectReference Include="..\BackendLib.Time\BackendLib.Time.csproj" />
+    <ProjectReference Include="..\BackendLib\BackendLib.csproj" />
+  </ItemGroup>
+
+</Project>
